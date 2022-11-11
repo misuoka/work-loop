@@ -1,0 +1,23 @@
+{
+    "name": "misuoka/work-loop",
+    "description": "循环执行任务的后台服务程序 Background service program that executes tasks cyclically",
+    "keywords": ["loop", "task", "work", "daemon"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "misuoka",
+            "email": "125158612@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "misuoka\\WorkLoop\\": "src",
+            "test\\": "tests"
+        }
+    }
+}
