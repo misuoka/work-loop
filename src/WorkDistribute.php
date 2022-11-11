@@ -31,7 +31,7 @@ class WorkDistribute
         'workers'            => [
             // 'workname' => [
             //     'enabled'      => true,  // 启用任务
-            //     'logic'        => \app\logic\Xxxx::class, // 具体业务类，执行函数必须是 run
+            //     'logic'        => \app\logic\Xxxx::class, // 具体业务类，必须实现接口 misuoka\WorkLoop\WorkInterface
             //     'sleeptime'    => 0.3,   // 秒，支持小数。循环执行任务的休眠时间
             //     'working_time' => 10,    // 工作时长，单位分钟。进程循环执行的时间。时间到了之后，会再次启动进程
             // ],
